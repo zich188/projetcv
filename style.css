@@ -90,6 +90,38 @@ footer {
     margin: 10px 10px 10px 10px;
     display: flex;
     justify-content: center;
+    height: 400px;
+    color: white;
+    justify-content: left;
+    line-height: 300%;
+}
+
+.corps ul {
+    list-style: none;
+    font-size: 30px;
+}
+
+
+/* PAGES SECONDAIRES */
+
+#container {
+    margin: 10px 10px 10px 10px;
+    display: flex;
     height: 500px;
     color: white;
+}
+
+.box-1 {
+    background: #e74c3c;
+    height: 830px;
+    width: 50%;
+    margin-right: 10px;
+    padding: 50px 100px;
+    align-items: center;
+}
+
+.box-2 {
+    background: center / cover no-repeat url("./src/img/colonel-sanders.jpg");
+    height: 500px;
+    width: 50%;
 }
