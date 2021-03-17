@@ -85,7 +85,7 @@ footer {
 
 /* Page Formations */
 
-#formations {
+.corps {
     background: aquamarine;
     margin: 10px 10px 10px 10px;
     display: flex;

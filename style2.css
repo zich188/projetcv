@@ -1,53 +1,22 @@
-ul {
-    display: flex;
-    flex-direction: column;
-}
-
-li {
-    list-style-type: none;
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-input[type="checkbox"]:not(:checked)+ul {
-    display: none;
-}
-
-input[type="checkbox"]:checked+ul {
-    display: flex;
-}
-
-@media screen and (max-width: 640px) {
     ul {
         display: flex;
         flex-direction: column;
     }
-}
-
-@media screen and (max-width: 640px) {
-    /* Gestion de l'affichage du menu */
-    input[type="checkbox"]:not(:checked)~ul {
+    
+    li {
+        list-style-type: none;
+        padding: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    input[type="checkbox"]:not(:checked)+ul {
         display: none;
     }
-    input[type="checkbox"]:checked~ul {
+    
+    input[type="checkbox"]:checked+ul {
         display: flex;
     }
-    /* Gestion de la checkbox */
-    input[type="checkbox"]+label:before {
-        font-family: FontAwesome;
-        font-size: 30px;
-    }
-    input[type="checkbox"]+label:before {
-        content: "\f0c9";
-    }
-    input[type="checkbox"]:not(:checked)+label:before {
-        content: "\f0c9";
-    }
-    input[type="checkbox"]:checked+label:before {
-        content: "\f00d";
-    }
-}
