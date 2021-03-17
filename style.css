@@ -46,7 +46,9 @@ button {
     justify-content: center;
     height: 250px;
     align-items: center;
-    background: #ecf0f1;
+    background: #1b90ad;
+    margin: 10px 10px 0 10px;
+    color: white;
 }
 
 
@@ -60,7 +62,7 @@ button {
 .block-1 {
     background: #e74c3c;
     padding: 30px;
-    margin: 10px;
+    margin: 10px 0px 10px 10px;
 }
 
 .block-2 {
@@ -73,5 +75,21 @@ button {
 /* FOOTER */
 
 footer {
-    margin: 0 50px;
+    margin: 0 10px 0;
+    background: yellowgreen;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+/* Page Formations */
+
+#formations {
+    background: aquamarine;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    color: white;
 }
