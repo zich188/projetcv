@@ -1,10 +1,43 @@
+@media screen and (max-width: 812px) 
+{
+  .proExperiences
+  {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .titleXpPro{
+    display: flex;
+    flex-direction: column-reverse;
+  color: yellow;
+    }
+}
+
+
+body{
+  background-color: #EAECEE;
+}
+
+
 .titleXpPro{
    color: #762F1F; 
    display: flex;
    justify-content: center;
    border: solid #900C3F;
-   margin : 5%;
-   padding: 5%;
+   margin : 5% 25%;
+   padding: 2% 0;
+   background-color: #EAECEE;
+}
+
+.xpProfesionnel{
+  background-color: #EAECEE;
+}
+
+
+
+ul li{
+  margin : 2% 0;
+  padding: 0 1%;
 }
 
 
@@ -32,7 +65,7 @@
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: red;
 }
 
 #menuToggle input
@@ -69,7 +102,7 @@
   
   transition: transform 0.5s cubic-bezier(0.7,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+              opacity 0.79s ease;
 }
 
 #menuToggle span:first-child
@@ -115,7 +148,7 @@
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 0px;
+  margin: -90px 0 0 0px;
   padding: 150px;
   padding-top: 50px;
   
@@ -132,7 +165,7 @@
 
 #menu li
 {
-  padding: 10px 0;
+  padding: 10px 20px;
   font-size: 22px;
 }
 
