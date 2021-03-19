@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: Montserrat;
 }
 
 
@@ -83,7 +84,7 @@ footer {
 }
 
 
-/* Page Formations */
+/* PAGE FORMATION */
 
 .corps {
     background: aquamarine;
